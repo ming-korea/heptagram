@@ -21,13 +21,14 @@ body{
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .subtitle-text{
     font-size: 25px;
     font-weight: 300;
     text-align: center;
-    padding-top: 80px;
+    margin-bottom: 80px;
 }
 .info-link{
     padding-top: 5px;
@@ -41,7 +42,7 @@ body{
     border-radius: 10px;
 }
 .info-link-container{
-    margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .info-link:hover{
@@ -50,13 +51,12 @@ body{
 .footer{
     text-align: center;
     width: 100%;
-    position: absolute;
     bottom: 0px;
     background-color: #F0F0F0;
     color: #B8B8B8;
+    position: fixed;
 }
-.gak-img{
-    margin-top: 100px;
+.profile-img{
     text-align: center;
 }
 .back-button{
@@ -76,4 +76,26 @@ body{
     text-align: center;
     font-weight: 100;
     font-size: 300px;
+}
+.vid-container{
+    width: 600px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.vid-desc{
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.vid-date{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.profile-img-desc{
+    color: #B8B8B8;
+    text-align: center;
+    margin-bottom: 100px;
 }
