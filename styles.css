@@ -57,6 +57,8 @@ body{
     position: fixed;
 }
 .profile-img{
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 .back-button{
@@ -68,14 +70,10 @@ body{
 }
 .back-button-container{
     margin-top: 40px;
+    margin-bottom: 70px;
 }
 .back-button:hover{
     color: #B8B8B8;
-}
-.info-text{
-    text-align: center;
-    font-weight: 100;
-    font-size: 300px;
 }
 .vid-container{
     width: 600px;
@@ -90,12 +88,11 @@ body{
     line-height: 40px;
 }
 .vid-date{
-    margin-left: 10px;
     font-size: 30px;
     font-weight: 200;
 }
 .profile-img-desc{
     color: #B8B8B8;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
