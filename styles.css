@@ -80,12 +80,15 @@ body{
     align-items: center;
 }
 .vid-desc{
-    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
     font-size: 40px;
     font-weight: 500;
     line-height: 40px;
 }
 .vid-date{
+    text-decoration: none;
+    color: #000000;
     font-size: 30px;
     font-weight: 200;
 }
@@ -93,6 +96,12 @@ body{
     color: #B8B8B8;
     text-align: center;
     margin-bottom: 70px;
+}
+.vid-desc:hover{
+    color: #B8B8B8;
+}
+.vid-img{
+    margin-right: 10px;
 }
 @media only screen and (max-width: 1000px){
     .title-text{
