@@ -57,8 +57,6 @@ body{
     position: fixed;
 }
 .profile-img{
-    margin-left: 20px;
-    margin-right: 20px;
     text-align: center;
 }
 .back-button{
@@ -95,4 +93,50 @@ body{
     color: #B8B8B8;
     text-align: center;
     margin-bottom: 70px;
+}
+@media only screen and (max-width: 1000px){
+    .title-text{
+        font-size: 30px;
+    }
+    .subtitle-text{
+        font-size: 20px;
+    }
+    .main{
+        width: 70%;
+    }
+    .head{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px){
+    .vid-container{
+        display: unset;
+    }
+    .vid-desc{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .main{
+        width: 70%;
+    }
+    .vid-desc{
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .vid-date{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .main{
+        width: 70%;
+    }
+    .vid-desc{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .vid-date{
+        font-size: 20px;
+    }
 }
